@@ -44,7 +44,9 @@ trouver les failles) prime sur la puissance brute. Le but d'un étage n'est **ja
 
 ## Commandes essentielles (détails dans docs/WORKFLOW_TOOLS.md)
 ```bash
-# 1) restaurer le projet si le bac à sable a été réinitialisé (l'archive fait foi)
+# 1) récupérer le projet depuis GitHub (source de vérité)
+git clone https://github.com/Lasertie/the_tower.git
+# ou, si le bac à sable a été réinitialisé et qu'il n'y a pas de git, utiliser l'archive :
 cd /home/claude && unzip -q /mnt/user-data/outputs/the_tower.zip
 # 2) Godot 4.3 (non conservé entre sessions)
 curl -sSL -o /tmp/godot.zip https://github.com/godotengine/godot/releases/download/4.3-stable/Godot_v4.3-stable_linux.x86_64.zip && unzip -qo /tmp/godot.zip -d /tmp && chmod +x /tmp/Godot_v4.3-stable_linux.x86_64
