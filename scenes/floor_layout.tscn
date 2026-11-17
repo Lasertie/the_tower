@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bk7wq3n5m2xv1"]
+
+[ext_resource type="Script" uid="uid://pehrgs6gdkpq" path="res://scripts/world/floor_layout.gd" id="1"]
+
+[node name="FloorLayout" type="Node3D"]
+script = ExtResource("1")

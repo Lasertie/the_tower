@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dv8p1qnx6y3t2"]
+
+[ext_resource type="PackedScene" uid="uid://bk7wq3n5m2xv1" path="res://scenes/floor_layout.tscn" id="1"]
+[ext_resource type="Script" uid="uid://lpykag2q453f" path="res://scripts/world/village_layout.gd" id="2"]
+
+[node name="VillageLayout" instance=ExtResource("1")]
+script = ExtResource("2")
